@@ -37,7 +37,7 @@ public class Ejemplo052 {
                     + "número %d\n", contador);
             calificacion = entrada.nextDouble();
             suma_total = suma_total + calificacion;
-            mensajeFinal = String.format("%s%f\n", 
+            mensajeFinal = String.format("%s%.1f\n", 
                     mensajeFinal, calificacion);
             //""+"7.5"+"\n" == "7.5\n" (String.format)
             // contador
