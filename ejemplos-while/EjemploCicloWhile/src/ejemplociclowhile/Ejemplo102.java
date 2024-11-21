@@ -71,6 +71,7 @@ public class Ejemplo102 {
             switch(operacion){
                 case "suma":
                     resultado = tabla + contador;
+                    cadena = tabla + "+" + contador;
                     break;
                 case "resta":
                     resultado = tabla - contador;
@@ -84,10 +85,8 @@ public class Ejemplo102 {
             }
            
             
-            cadena = String.format("%s%d%d=%.2f\n", 
+            cadena = String.format("%s=%.2f\n", 
                     cadena, 
-                    tabla, 
-                    contador,
                     resultado);
             contador = contador + 1;
         }
